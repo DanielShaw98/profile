@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+body {
+  background: rgb(240,248,255);
+}
+
+h2, h3, p, a {
+  font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+  color: rgb(54, 69, 79)
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Agbalumo';
+  color: rgb(255, 117, 24);
+}
+
+h2 {
+  font-size: 30px
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  line-height: 30px;
+}
+
+.headshot {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.le-wagon {
+  height: 20px;
+  width: 20px;
+  border-radius: 20%;
+  vertical-align: middle;
+}
+
+.fa-brands {
+  font-size: 35px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.link-orange {
+  color: rgb(255, 117, 24);
+  transition: 0.5s ease-in-out;
+}
+
+.btn-orange {
+  color: #FFFFFF;
+  background-color: rgb(255, 117, 24);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  transition: 0.5s ease-in-out;
+}
+
+.link-orange:hover {
+  color: rgb(93, 63, 211)
+}
+
+.btn-orange:hover {
+  background-color: rgb(93, 63, 211)
+}
+
+.container {
+  width: 750px;
+  margin: 0 auto;
+  background-color: rgb(240,248,255);
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
